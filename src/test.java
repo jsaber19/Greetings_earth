@@ -1,6 +1,6 @@
 public class test {
     public static void main(String[] args){
-        printHello(5);
+        System.out.println(printHello(5));
     }
     public static String printHello(int n){
         String s = "";
@@ -9,5 +9,5 @@ public class test {
         }
         return s;
     }
-    
+
 }
